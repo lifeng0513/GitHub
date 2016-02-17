@@ -1,0 +1,279 @@
+/*-------------------开始前的准备工作-------------------------------*/
+body {
+	  margin:0;
+	  font-family: "微软雅黑";
+	  min-width:980px;
+}
+h1,h2,h3,h4,h5,h6,ul,p,li{
+       margin:0;
+       padding:0;
+       list-style: none;  
+}
+
+.header a{
+	 text-decoration: none;
+	 color:#454343;
+}
+.header a:hover{
+	  color:blue;}
+
+.footer a{
+	 text-decoration: none;
+	 color:blue;
+}
+
+/*---------------------------内容部分公共-----------------------------*/
+.section{
+	padding:80px 0;
+	cursor: pointer;
+	border-bottom: 1px solid  #ccc;
+}
+.container{
+	 width:980px;
+	 margin:0 auto;
+     /*border:1px solid red;*/
+}
+.sub-title{
+	 font-size: 42px;
+	 text-align: center;
+	 font-weight: normal;
+
+}
+.sub-info{
+	  color:#767676;
+	  font-size: 18px;
+	  text-align: center;
+	  margin-top: 10px;
+}
+
+ /*--------------------------第一部分---------------------------------------头部*/
+ .header{
+ 	   padding:15px 0;
+ 	   /*border: 1px solid red;*/
+ 	   background:#f5f5f5;
+ }
+.header-c{
+  	    height:28px;
+  	    line-height: 28px;
+  }
+.login{
+	   float:left;
+	   font-size: 30px;
+	   font-weight: bold;
+	   margin-right: 10px;
+} 
+.search{
+	    float:left;
+	    background:#fff;
+	    font-size: 12px;
+}
+.input-one{
+	width:360px;
+	height:28px;
+	font-size:12px;
+	line-height:28px;
+	border-radius: 5px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.functionlist{
+	    float:left;
+}
+   /*后代选择器 */
+ .functionlist li{
+   	    float:left;
+   	    padding:0 7px;
+   	    font-size: 13px;
+   	    font-weight:bold;
+   }
+/*群组选择器 通过逗号*/
+.signin,.signup{
+	  float:right;
+	  padding:6px 12px;
+	  border: 1px solid #ccc;
+	  border-radius:5px;
+	  font-size: 13px;
+	  margin-top:-5px;
+	  line-height: 20px;
+	 	  }
+.signin{
+	   margin-left: 10px;
+	   background-image:linear-gradient(#fcfcfc,#eee);
+
+}
+.signin:hover{
+      background:#ddd;
+}
+
+.signup{
+	   color:#fff;
+	   background-image:linear-gradient(#8add6d, #60b044);
+
+}
+.signup:hover{
+	  background:#569e3d;
+}
+
+/*---------------------------第二部分------------------------------------------------*/
+ /*浮动*/
+.main{
+      background:#202020 ;
+  }
+.main-c{
+  	    height:351px;
+  }
+.main-intro{
+  	   width:620px;
+  	   color:#f5f5f5;
+  	   /*border: 1px solid red;*/
+  	   float:left;
+
+  }
+.big-title{
+	   font-size: 70px;
+	   padding-top: 10px;
+	   margin-bottom: 15px;
+	   font-weight: normal;
+	   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-intro p{
+       font-size: 21px;
+       line-height: 1.5;
+}
+.signup-form{
+  		width: 320px;
+  		height:351px;
+  		/*border: 1px solid green;*/
+  		float:right;
+ }
+/*右边三个框*/
+.text1{
+        width:310px;
+        height:44px;
+        font-size: 16px;
+        color:#696969;
+        line-height: 44px;
+        text-align: left;
+        /*border: 1px solid red;*/
+        float:left;
+	    background:#fff;
+	    border-radius: 5px;
+	    margin-bottom: 10px;
+}
+.text-a{
+	width:310px;
+	height:44px;
+	font-size:16px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	border-radius:5px;}
+.signup-form p{
+	    color:#767676;
+	    margin-top:13px;
+}
+.btn-gre{
+		 background-image:linear-gradient(#8add6d, #60b044);
+          
+}
+.btn-gre:hover{
+          background:#569e3d; 
+}
+/*---------------------------------第三部分------------------------------------------------*/
+ /*颜色渐变（蓝色- 紫色）*/
+.enterprise{
+ 	  background-image:linear-gradient(#202d5f,#614381);
+ }
+ /*后代选择器*/
+.enterprise h2{
+ 	  color:#f5f5f5;
+ }
+.btn{
+	 text-align: center;
+	 color:#f5f5f5;
+	 padding: 12px 20px;
+	 font-size: 16px;
+	 border-radius:6px;
+	 margin-top: 10px;
+	 cursor: pointer;
+	 /*border: 1px solid red;*/
+}
+.btn-blue{
+	 width:346px;
+	 margin:12px auto;
+	 background-image:linear-gradient(#45b3f3,#1d6ac8);
+
+}
+.btn-blue:hover{
+	 background:#1a5eb2;
+}
+.gh-image{
+	 width:100%;
+	 margin-top: 20px;
+}
+/*----------------------------------第四部分------------------------------------------*/
+.love-resaon{
+	     width:480px;
+	     height:300px;
+	     /*border:1px solid red;*/
+	      margin:0 auto;
+	      float:left;
+	      text-align: center;
+}
+.love{
+	height:700px;
+}
+ .l-img{
+ 	  /*border:1px solid red; */
+ 	  width:100px;
+ 	  height: 100px;
+ 	  margin:20px auto 40px;
+ 	  border-radius:50%;
+ }
+/*-------------------------------------------------第五部分------------------------*/
+.btn-green{
+	 width:287px;
+	 margin:12px auto;
+	 background-image:linear-gradient(#8add6d, #60b044);
+
+}
+ .btn-green:hover{
+	  background:#569e3d;
+}
+.section h3{
+	   text-align: center;
+	   margin-top:30px;
+	   font-size: 21px;
+	   font-weight: normal;
+}
+
+/*/----------------------------------------------第六部分/底部------------------------------------*/
+.footer{
+	    padding:40px 0;
+}
+.left,.right li{
+       font-size: 12px;
+       color:#767676;
+       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+       
+}
+
+.left li{
+	   float:left;
+       margin-left: 15px;
+}
+.right li{
+        float:right;
+        margin-right: 15px;
+}
+.zhong{
+	   float:left;
+	   padding-left:150px;
+	   margin-top: -5px;
+}
+.five{
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #DAD3D3;
+	border-radius: 5px;
+	box-shadow: 1px 1px solid #ccc;
+}
